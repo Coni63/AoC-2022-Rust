@@ -15,6 +15,7 @@ fn main() {
         "1" => days::day1::run(),
         "2" => days::day2::run(),
         "3" => days::day3::run(),
+        "4" => days::day4::run(),
         _ => eprintln!("Invalid day: {}. Please enter a day between 1 and 25.", day),
     }
 }
